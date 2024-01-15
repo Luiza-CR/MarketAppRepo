@@ -1,0 +1,40 @@
+header{
+  background-color: white;
+  padding: 0;
+  border-bottom: 1px solid;
+  border-color:  rgb(218, 218, 218);
+}
+
+a{
+  color: rgb(65, 65, 65);
+
+}
+
+a:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 8px;
+  color: rgb(201, 47, 27);
+  font-family: 
+
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a.logo{
+  font-weight: bold;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none ;
+  margin: 0;
+}
+
+nav, ul, li, a {
+  padding: 0.5em;
+  display:flex
+}
