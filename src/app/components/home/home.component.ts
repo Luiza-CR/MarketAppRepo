@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FoodsService } from '../../services/food/foods.service';
 
 @Component({
   selector: 'app-home',
