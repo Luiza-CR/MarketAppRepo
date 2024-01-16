@@ -24,7 +24,7 @@ export class ProductService {
       'assets/images/products-images/meat.png',
       'assets/images/products-images/pears.png',
       'assets/images/products-images/pile-of-bagels.png',
-      'assets/images/products-images/pile-of-sunflower-seeds.png',
+      'assets/images/products-images/pile-of-sunflow-seeds.png',
       'assets/images/products-images/plums.png',
       'assets/images/products-images/porkchops.png',
       'assets/images/products-images/potatoes.png',
@@ -35,6 +35,7 @@ export class ProductService {
       'assets/images/misc-images/antimissile-rocket-launcher.png',
       'assets/images/misc-images/anvil.png',
       'assets/images/misc-images/beehive.png',
+      'assets/images/misc-images/ladder.png',
       'assets/images/misc-images/romantic-basket.png',
       'assets/images/misc-images/thor-hammer.png'
     ]
