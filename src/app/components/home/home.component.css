@@ -1,3 +1,37 @@
-p {
-  color: aqua;
+h1 {
+  padding: 32px;
 }
+
+.container-ofertas {
+  background-color: antiquewhite;
+
+
+}
+ ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  list-style-type: none;
+  padding: 0;
+ }
+
+li {
+  height: 20rem;
+  width: 20rem;
+  border: 2px solid;
+  border-radius: 8px;
+  margin: 0.5rem;
+  flex-direction: column;
+  overflow: hidden;
+  border-color: rgb(219, 219, 219);
+
+
+ }
+
+ a {
+  width: 180px;
+
+
+ }
+
