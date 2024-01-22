@@ -2,9 +2,11 @@ header{
   background-color: rgb(218, 31, 31);
   padding: 16px;
   border-bottom: 1px solid;
-  border-bottom-style:dotted ;
   border-color:  rgb(255, 255, 255);
-  border-bottom-width: 8px ;
+*/  border-bottom-style: dotted ;
+  border-bottom-width: 12px;
+  border-color: rgb(247, 247, 247);
+
 
 }
 
@@ -64,5 +66,7 @@ nav {
 nav, ul, li, a {
   padding: 0.5em;
   display:block
-  
+
 }
+
+

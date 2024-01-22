@@ -15,7 +15,7 @@ export class ProductService {
         id:1,
         name: "Queijo azul",
         price: "R$23,00" ,
-        description: "Queijo azul com mofo T-vírus. 200g",
+        description: "Queijo azul com mofo tipo Mutamiceto Série E. 200g",
         imageURL: '../../../assets/images/products-images/blue-cheese.png',
       },
       {
@@ -37,7 +37,7 @@ export class ProductService {
           id:4,
           name: "Picolé de frutas",
           price: "R$3,00" ,
-          description: "Picolé de frutas. Contém: kiwi, morango, manga e uva ",
+          description: "Picolé de frutas de kiwi, morango, manga e uva. ",
           imageURL: '../../../assets/images/products-images/popsicle.png',
           }
           ,
@@ -55,6 +55,30 @@ export class ProductService {
           price: "R$13,00" ,
           description: "200g de Mirtilos ",
           imageURL: '../../../assets/images/products-images/blueberries.png'
+          }
+          ,
+        {
+          id:7,
+          name: "Mel",
+          price: "R$18,00" ,
+          description: "200g de mel florada de lavanda ",
+          imageURL: '../../../assets/images/products-images/honey.png'
+          }
+          ,
+        {
+          id:8,
+          name: "Ameixas",
+          price: "R$10,00" ,
+          description: "200g de Ameixas ",
+          imageURL: '../../../assets/images/products-images/plums.png'
+          }
+          ,
+        {
+          id:9,
+          name: "Café em grãos Norte de Minas",
+          price: "R$15,00" ,
+          description: "1kg de Café 100% arábica em grãos, torrado. ",
+          imageURL: '../../../assets/images/products-images/coffee-beans.png'
           }
     ]
 }
