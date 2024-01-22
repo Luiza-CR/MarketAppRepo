@@ -44,7 +44,7 @@ export class ProductService {
         {
           id:5,
           name: "Ovos de ouro",
-          price: "R$1.000.000,00" ,
+          price: "R$401.450,00" ,
           description: "Caixa com 25 ovos de ouro 24K. Direto do castelo do gigante.",
           imageURL: '../../../assets/images/products-images/eggs.png',
           }
@@ -54,11 +54,8 @@ export class ProductService {
           name: "Mirtilos",
           price: "R$13,00" ,
           description: "200g de Mirtilos ",
-          imageURL: '../../../assets/images/products-images/blueberries.png',
+          imageURL: '../../../assets/images/products-images/blueberries.png'
           }
-
-
-
     ]
 }
 }

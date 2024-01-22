@@ -1,9 +1,18 @@
 h1 {
+  margin: 0;
   padding: 32px;
+  background-color: rgb(206, 22, 22);
+  color: rgb(255, 238, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container-ofertas {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
+
 
 
 }
@@ -19,19 +28,27 @@ h1 {
 li {
   height: 20rem;
   width: 20rem;
-  border: 2px solid;
+  border: 1px solid;
   border-radius: 8px;
   margin: 0.5rem;
-  flex-direction: column;
-  overflow: hidden;
+  flex-direction:column;
+  overflow: visible;
   border-color: rgb(219, 219, 219);
+  padding: 16px;
 
 
  }
-
- a {
-  width: 180px;
-
-
+ img {
+  display:flexbox;
  }
+
+ .shopping-cart {
+  padding: 16px;
+  border-radius: 8px;
+  color: rgb(226, 226, 226);
+  background-color: rgb(40, 113, 180);
+  border-style: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
+
 

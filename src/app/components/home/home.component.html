@@ -1,15 +1,21 @@
-
-<h1> Ofertas do dia</h1>
-
 <div class="container-ofertas">
   <ul>
 
     <li *ngFor="let product of products">
-      <a> <img src="{{product.imageURL}}" alt="" > {{product.name}}código:{{product.id}}Preço:{{product.price}}{{product.description}} </a>
-    </li>
 
+      <a> <img src="{{product.imageURL}}">
+        <br><span>{{product.name}} </span>
+        <br><span>Código:{{product.id}} </span>
+        <br><span>Preço:{{product.price}} </span>
+        <br><span>Descrição:{{product.description}} </span>
+        <br><button class="shopping-cart" href="#"> Adicionar ao carrinho</button>
+        </a>
+
+    </li>
   </ul>
 </div>
+
+
 <app-card></app-card>
 
 
