@@ -1,6 +1,40 @@
 .login-container{
   margin: auto;
   padding: 32px;
-  border: red;
+  border-width: 1px;
+  position: absolute ;
+  width:  400px;
 
+
+}
+
+input{
+  height: 300 px;
+  border-color: solid red;
+  border-width: 1px;
+  border-radius: 4px;
+  height:32px;
+
+
+
+}
+
+button {
+  padding: 32 px;
+  border-width: 1px;
+  width: 175px;
+  border-radius: 4px;
+  background-color:rgb(80, 137, 202);
+  height:32px;
+  color: aliceblue;
+  border-style: none;
+
+}
+
+h2 {
+  font-weight:400;
+}
+
+article {
+  justify-content: center;
 }
