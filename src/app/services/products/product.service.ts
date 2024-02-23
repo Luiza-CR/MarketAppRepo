@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Products } from '../../shared/models/products';
+import { Product } from '../../shared/models/product';
 
 
 @Injectable({
@@ -9,7 +9,7 @@ export class ProductService {
 
   constructor() { }
 
-  getAll():Products[]{
+  getAll():Product[]{
     return [
       {
         id:1,

@@ -1,0 +1,9 @@
+.categ-container {
+  display: flex;
+  padding: 32px;
+  margin: 0;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 16px;
+  background-color: rgb(240, 240, 240);
+}
